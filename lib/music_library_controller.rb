@@ -77,7 +77,7 @@ class MusicLibraryController
     if song_number.to_i >= 1 && song_number.to_i <= sorted_songs.count
       $stdout.puts("Playing #{sorted_songs[song_number.to_i+1].name} by #{sorted_songs[song_number.to_i +1].artist.name}")
     end
-    binding.pry
+    #binding.pry
 
     
     
